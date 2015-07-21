@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<title>STYLEX</title> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="hackWeek.css">
+		<script src="hackWeek.js"></script>
+		<style>
+			#footer{
+				:503px;
+			}
+			.ui-page{
+				background-image: url("blueback.png"); 
+			}
+			h1{
+				text-align: center;
+
+			}
+		</style>
+	</head>
+	<body>
+
+		<div data-role="page" id="pageOne">
+			<div data-role="header">
+				<h1>Home</h1>
+			</div>
+			<h1>
+				Welcome to STYLEX!
+			</h1>
+			<p>
+				Here at STYLEX you can exchange clothes. Start collecting treasures now!
+			</p>
+			<div data-role="footer" data-position="fixed" data-fullscreen="true" id="footer">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#pageOne">Home</a></li>
+						<li><a href="#pageTwo">New Entry</a></li>
+						<li><a href="#pageThree">Browse</a></li>
+					</ul>
+				</div><!-- /navbar -->
+			</div>
+		</div>
+
+
+		<div data-role="page" id="pageTwo">
+			<div data-role="header">
+				<h1>New Entry</h1>
+			</div>
+			<div data-role="footer" data-position="fixed" data-fullscreen="true" id="footer">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#pageOne">Home</a></li>
+						<li><a href="#pageTwo">New Entry</a></li>
+						<li><a href="#pageThree">Browse</a></li>
+					</ul>
+				</div><!-- /navbar -->
+			</div>
+		</div>
+
+		<div data-role="page" id="pageThree">
+			<div data-role="header">
+				<h1>Browse</h1>
+			</div>
+			<div data-role="footer" data-position="fixed" data-fullscreen="true" id="footer">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#pageOne">Home</a></li>
+						<li><a href="#pageTwo">New Entry</a></li>
+						<li><a href="#pageThree">Browse</a></li>
+					</ul>
+				</div><!-- /navbar -->
+			</div>
+		</div>
+
+	</body>
+</html> 
